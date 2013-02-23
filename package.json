@@ -1,0 +1,34 @@
+{
+  "name": "grader",
+  "version": "0.0.1",
+  "description": "Assign letter grades to various arbritrary values, compute aggregate grades",
+  "keywords": [],
+  "author": {
+    "name": "Michael Robinson",
+    "email": "mike@pagesofinterest.net"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/faceleg/grader.git"
+    }
+  ],
+  "dependencies":{
+    "complexity-report": ""
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "vows --spec test/api-test.js"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/index.js"
+}
